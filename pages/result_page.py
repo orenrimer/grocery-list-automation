@@ -1,6 +1,5 @@
 from pages.base_page import BasePage
 from selenium.webdriver.support.ui import Select
-from time import sleep
 
 
 class ResultPage(BasePage):
@@ -20,7 +19,6 @@ class ResultPage(BasePage):
 
     def choose_product(self, max_price):
         self.sort_by_price()
-        sleep(5)
         if not max_price:
             product = self.driver.find_element_by_xpath(self.PRODUCTS_LINK)
             product.click()
