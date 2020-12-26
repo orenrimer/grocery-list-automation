@@ -1,5 +1,5 @@
 from pages.base_page import BasePage
-from time import sleep
+
 
 class CartPage(BasePage):
 
@@ -16,4 +16,3 @@ class CartPage(BasePage):
         items = self.driver.find_elements_by_xpath(self.REMOVE_BTN)
         for item in items:
             item.click()
-            sleep(5)
