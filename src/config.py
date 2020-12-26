@@ -1,2 +1,2 @@
-EMAIL = "test_selenium2@gmail.com",
-PASSWORD = "7YW9TkjUrZK6Pgg"
+EMAIL = "test_email@gmail.com",
+PASSWORD = "test_password1!"
